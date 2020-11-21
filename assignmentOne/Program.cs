@@ -65,9 +65,6 @@ namespace assignmentOne
                 double sum = 0;
 
 
-
-
-
                 if (operator1 == "+")
                 {
                     sum = no1 + no2;
@@ -114,17 +111,7 @@ namespace assignmentOne
                     Console.WriteLine("Fel!");
                 }
 
-
-                //Console.WriteLine(sum);
-                //Console.WriteLine(sum2);
-
-
                 Console.WriteLine($"{no1} {operator1} {no2} {operator2} {no3} = {sum2}");
-                //Console.WriteLine(no1 + operator1 + no2 + operator2 + no3 + "=" + sum2);
-
-                //Lägg till resultatet i en list
-
-
 
                 //Om resultatet är mindre än 100, skriv ut Less than a hundred
                 //Om den är större, skriv More than a hundred
@@ -143,6 +130,7 @@ namespace assignmentOne
                     Console.WriteLine("Cool, you got one hundred!");
                 }
 
+                //Lägg till resultatet i en list
                 totalSum.Add(sum2);
 
                 Console.WriteLine("Would you like another try");
